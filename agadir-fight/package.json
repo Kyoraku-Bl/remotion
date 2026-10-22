@@ -1,0 +1,25 @@
+{
+  "name": "agadir-infinity-bankai",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A 30-second Remotion anime fight on the Agadir coast",
+  "scripts": {
+    "dev": "remotion studio src/index.ts --host 0.0.0.0",
+    "typecheck": "tsc",
+    "render": "node render.mjs",
+    "still": "node render.mjs --still"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.537",
+    "@sparticuz/chromium": "143.0.0",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.537"
+  },
+  "devDependencies": {
+    "@types/node": "22.10.2",
+    "@types/react": "19.2.7",
+    "@types/react-dom": "19.2.3",
+    "typescript": "5.9.3"
+  }
+}

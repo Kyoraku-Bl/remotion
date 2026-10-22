@@ -1,0 +1,9 @@
+node_modules/
+.venv/
+out/
+build/
+.DS_Store
+
+# Local review exports; reproducible with npm run render / npm run still.
+/Agadir-Infinity-Bankai.mp4
+/Agadir-Poster.jpg
